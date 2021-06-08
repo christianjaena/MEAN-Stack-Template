@@ -8,7 +8,7 @@ const {
 	updateController,
 	deleteController,
 	deleteByIdController,
-} = require('../Controllers/Controller.js');
+} = require('../controllers/Controller.js');
 
 route.get('/', getController);
 
