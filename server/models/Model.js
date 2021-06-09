@@ -4,7 +4,7 @@ const { Schema, model: Model } = mongoose;
 const schema = new Schema({
 	id: {
 		type: Number,
-		require: true,
+		required: true,
 	},
 });
 
